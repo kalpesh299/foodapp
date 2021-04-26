@@ -4,17 +4,19 @@ const Burger = (props) => {
     const data = props.fetchdata[1]
     if (data) {
         return (
-            <div className="">
-                <h1 className="">{data.subItemsData.name}</h1>
+            <div className="container">
+                <h1 className="text-center">{data.subItemsData.name}</h1>
                 {data.subItemsData.subItems.map((element, index) => <div className="">
-                    <div className="">
-                        <p className="">{element.name}</p>
-                        <p className="">₹ {element.price}</p>
-                        <p className="">{element.description}</p>
-                        <button className="" onClick={() => { props.addprop(element) }}>Order Now</button>
+                <div className="row ">
+                    <div className="col-md-6">
+                        <p className="boxname">{element.name}</p>
+                        <p className="boxprice">₹ {element.price}</p>
+                        <p className="boxdes">{element.description}</p>
+                        <button className="order" onClick={() => { props.addprop(element) }}>Order Now</button>
                     </div>
-                    <div className="">
-                    <img src={element.image} alt=""></img>
+                    <div className="col-md-6">
+                    <img className='h-25 mt-5' src={element.image} alt=""></img>
+                    </div>
                     </div>
                 </div>
                 )}

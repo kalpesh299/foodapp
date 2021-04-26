@@ -55,10 +55,12 @@ function App() {
   }
   return (
     <Router>
+    
       <div className="header">
-        <NavLink className="allink homelink" to="/">Food Ordering Portal</NavLink>
-        <NavLink className="allink cartlink" to="/cart"><i className="fa">&#xf07a;</i> ({cart.length})</NavLink>
+        <NavLink className="heading" to="/">Food Ordering Portal</NavLink>
+        <NavLink className="cart" to="/cart"><i className="fa">&#xf07a;</i> <span className="length">({cart.length})</span></NavLink>
       </div>
+      
       <Switch>
         <Route exact path="/" component={() => <Home fetchdata={prevdata} />} />
         <Route exact path="/cart" component={() => <Cart cartdata={cart} deleteItem={deleteCartItem} clearCart={removeAll} />} />

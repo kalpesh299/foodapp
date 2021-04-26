@@ -1,0 +1,96 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  background: #f3f2ef;
+  font-family: "Jost", sans-serif;
+}
+
+
+.pizza{
+      color:black;
+      width:250px;
+      height: 200px;
+      justify-items: center;
+      
+}
+.burger{
+      color:black;
+      width:250px;
+      height: 200px;
+      
+}
+.header{
+      background-color: chocolate;
+      align-items: center;
+      text-align: center;
+      height: 50px;
+      position: relative;
+      }
+.heading{
+      
+      color: black;
+      align-items: center;
+      justify-content: center;
+      line-height: 8vh;
+      font-size: 4vh;
+      
+      
+}
+.cart  i{
+      
+      color: black;
+      font-size: xx-large;
+      
+      
+      
+}
+.length{
+color: black;
+
+}
+.name{
+      color:black;
+      font-size: 50px;
+      text-align: center;
+      text-decoration: none;
+}
+.pizzaa{
+      margin-left: 380px;
+      
+}
+.box{
+      float: left;
+      margin-top: 5px;
+      box-shadow: 0 8px 8px 0  #d6d2d2;
+      width: 100%;
+      height: 30vh;
+      padding: 10px;
+     
+}
+.pizimg img{
+      width: 20vh;
+      height: 20vh;
+      float: right;
+      padding: 20px;
+      margin-top: 0%;
+      
+}
+.order{
+      background-color: chocolate;
+      
+}
+.boxname{
+      margin-top: 10px;
+}
+.place {
+      justify-content: center;
+      align-items: center;
+}
+

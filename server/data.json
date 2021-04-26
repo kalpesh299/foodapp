@@ -1,24 +1,24 @@
 {
     "results": [{
             "name": "Pizza",
-            "image": "https://res.cloudinary.com/anurickster/image/upload/v1619271425/pizza_zwzrjq.webp",
+            "image": "https://res.cloudinary.com/decuv4pwp/image/upload/v1619477837/kalpesh/pizza5_ueqbox.jpg",
             "subItemsData": {
                 "name": "Tasty Pizzas",
                 "subItems": [{
                         "name": "Tomato Basil Italian Pizza",
-                        "image": "https://res.cloudinary.com/anurickster/image/upload/v1619271426/pizza1_gb0gau.webp",
+                        "image": "https://res.cloudinary.com/decuv4pwp/image/upload/v1619477591/kalpesh/pizza4_uhxfmt.webp",
                         "price": "450",
                         "description": "Dressed with oil, the origanum and garlic cloves"
                     },
                     {
                         "name": "Bombay Pizza",
-                        "image": "https://res.cloudinary.com/anurickster/image/upload/v1619271426/pizza2_bk8zm3.jpg",
+                        "image": "https://res.cloudinary.com/decuv4pwp/image/upload/v1619477595/kalpesh/pizza1_hngw2a.webp",
                         "price": "550",
                         "description": "Spicy tomato sauce with Italian herbs, mushrooms,onion, cottage cheese, coriander and mozzarella"
                     },
                     {
                         "name": "Sicilia Pizza",
-                        "image": "https://res.cloudinary.com/anurickster/image/upload/v1619271426/pizza3_iggviv.webp",
+                        "image": "https://res.cloudinary.com/decuv4pwp/image/upload/v1619477596/kalpesh/pizza3_i2z932.jpg",
                         "price": "450",
                         "description": "A thick base pizza with fresh tomato sauce,mushrooms, garlic, pickled onions"
                     }
@@ -27,24 +27,24 @@
         },
         {
             "name": "Burger",
-            "image": "https://res.cloudinary.com/anurickster/image/upload/v1619271425/burger_shpdff.webp",
+            "image": "https://res.cloudinary.com/decuv4pwp/image/upload/v1619477589/kalpesh/burger_1_q3vwfu.webp",
             "subItemsData": {
                 "name": "Crispy Burgers",
                 "subItems": [{
                         "name": "Fried Chicken Burger",
-                        "image": "https://res.cloudinary.com/anurickster/image/upload/v1619271425/burger1_usec6b.webp",
+                        "image": "https://res.cloudinary.com/decuv4pwp/image/upload/v1619477598/kalpesh/burger1_ecy6no.webp",
                         "price": "450",
                         "description": "Old School Chicken Burger"
                     },
                     {
                         "name": "Paneer Tikka Burger",
-                        "image": "https://res.cloudinary.com/anurickster/image/upload/v1619271425/burger2_nmdwia.webp",
+                        "image": "https://res.cloudinary.com/decuv4pwp/image/upload/v1619477583/kalpesh/burger4_usfhjj.webp",
                         "price": "450",
                         "description": "Spicy Paneer, Onion, Tomato, Mozerella Cheese"
                     },
                     {
                         "name": "Chicken Classic Cheese Burger",
-                        "image": "https://res.cloudinary.com/anurickster/image/upload/v1619271425/burger3_oujgbt.webp",
+                        "image": "https://res.cloudinary.com/decuv4pwp/image/upload/v1619477599/kalpesh/burger2_h4329j.webp",
                         "price": "550",
                         "description": "Aged cheddar, sweet pickle, tomato, red onion"
                     }

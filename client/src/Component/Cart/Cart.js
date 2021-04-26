@@ -4,23 +4,25 @@ const Cart = (props) => {
     if (props.cartdata.length !== 0) {
         return (
             <div>
-                {
+                {   
                     props.cartdata.map((value, index) =>
-                        <div className="cardstyle childelement">
-                            <div classname="childelement">
-                                <p className="childelementname">{value.name}</p>
-                                <p className="childelementprice">₹{value.price}</p>
-                                <p className="childelementdiscription">{value.description}</p>
-                                <button className="childelementbutton" onClick={() => props.deleteItem(value)}>Remove</button>
+                    <div className='container mt-5'>
+                        <div className="row">
+                            <div classname="col-md-6">
+                                <p className="boxname">{value.name}</p>
+                                <p className="boxprice">₹{value.price}</p>
+                                <p className="boxdes">{value.description}</p>
+                                <button className="order" onClick={() => props.deleteItem(value)}>Remove</button>
                             </div>
-                            <div className="childelementimage">
-                                <img alt="" src={value.image} />
+                            <div className="col-md-6">
+                                <img className="h-25 mt-5 " alt="" src={value.image} />
                             </div>
+                        </div>
                         </div>
                     )
                 }
-                <div className="cartfooter">
-                <button className="childelementbutton" onClick={props.clearCart}>Place Order</button>
+                <div className="col-2 mx-auto">
+                <button className="btn btn-success" onClick={props.clearCart}>Place Order</button>
                 </div>
             </div>
         )
