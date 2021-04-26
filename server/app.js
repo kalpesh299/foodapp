@@ -69,9 +69,7 @@ mongoose.connect(DBS,{
       })
   })
 
-   app.get('/test')
-
-  //for delete  
+  
   app.delete('/deleteitem', function (req, res) {
   
       order.deleteOne({ _id: req.body._id }).then((result) => {
