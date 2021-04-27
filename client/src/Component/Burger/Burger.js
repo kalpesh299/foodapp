@@ -6,7 +6,7 @@ const Burger = (props) => {
         return (
             <div className="container">
                 <h1 className="text-center">{data.subItemsData.name}</h1>
-                {data.subItemsData.subItems.map((element, index) => <div className="">
+                {data.subItemsData.subItems.map((element, index) => <div className="container">
                 <div className="row ">
                     <div className="col-md-6">
                         <p className="boxname">{element.name}</p>
