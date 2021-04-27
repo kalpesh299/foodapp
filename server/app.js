@@ -40,6 +40,7 @@ mongoose.connect(DBS,{
 
    var order = mongoose.model('order',userschema);
 
+   //route to add data into cart
    app.post('/addcart', (req, res) => {
       var saveorder = new order({
           name: req.body.name,
@@ -47,7 +48,7 @@ mongoose.connect(DBS,{
           price: req.body.price,
           description: req.body.description
       });
-  
+        // order  save here
       saveorder.save().then((result) => {
           console.log('Success', result)
       }, (err) => {
@@ -56,6 +57,7 @@ mongoose.connect(DBS,{
       res.json({ result: 'Success' })
   });
   
+  //item we add will appear here
   app.get('/cart', (req, res) => {
       order.find({}, (err, data) => {
           res.json(data)
@@ -69,7 +71,7 @@ mongoose.connect(DBS,{
       })
   })
  
-  //delete
+  //item will delete by its id
   app.delete('/deleteitem', function (req, res) {
   
       order.deleteOne({ _id: req.body._id }).then((result) => {
@@ -78,6 +80,7 @@ mongoose.connect(DBS,{
       }, (err) => console.log(err));
   })
   
+  //all data will delete
   app.delete('/deletemany', function (req, res) {
   
       order.deleteMany().then((result) => {
