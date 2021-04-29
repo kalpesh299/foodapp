@@ -15,7 +15,7 @@ const Cart = (props) => {
                                 <button className="order" onClick={() => props.deleteItem(value)}>Remove</button>
                             </div>
                             <div className="col-md-6">
-                                <img className="h-25 mt-5 " alt="" src={value.image} />
+                                <img className="h-25 mt-5 " alt="food images" src={value.image} />
                             </div>
                         </div>
                         </div>

@@ -6,7 +6,7 @@ const Burger = (props) => {
         return (
             <div className="container">
                 <h1 className="text-center">{data.subItemsData.name}</h1>
-                {data.subItemsData.subItems.map((element, index) => <div className="container">
+                {data.subItemsData.subItems.map((element,index) => <div className="container">
                 <div className="row ">
                     <div className="col-md-6">
                         <p className="boxname">{element.name}</p>
@@ -15,7 +15,7 @@ const Burger = (props) => {
                         <button className="order" onClick={() => { props.addprop(element) }}>Order Now</button>
                     </div>
                     <div className="col-md-6">
-                    <img className='h-25 mt-5' src={element.image} alt=""></img>
+                    <img className='h-25 mt-5' src={element.image} alt="burgerimage"></img>
                     </div>
                     </div>
                 </div>
