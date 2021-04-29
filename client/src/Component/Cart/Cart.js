@@ -28,7 +28,7 @@ const Cart = (props) => {
         )
     } else {
         return (
-            <div className="carthead">Cart is empty</div>
+            <div className="cartempty">Cart is empty</div>
         )
     }
 }
